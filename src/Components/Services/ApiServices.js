@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const BASE_URL = "http://localhost:5001/";
+export const BASE_URL = "https://academic-complaints-be.vercel.app/";
 
 class ApiServices {
   getToken() {
