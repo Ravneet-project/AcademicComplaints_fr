@@ -39,7 +39,7 @@ import HodHome from "./Student/HodHome";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename="/">
       <Routes>
         <Route path="/" element={<Master />}>
         <Route path="/" element={<Home />} />
