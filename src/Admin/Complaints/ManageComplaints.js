@@ -3,7 +3,7 @@ import PuffLoader from "react-spinners/PuffLoader";
 
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import ApiServices, { BASE_URL } from "../../Components/Services/ApiServices";
+import ApiServices from "../../Components/Services/ApiServices";
 import * as qs from "qs";
 import Pagination, { limit } from "../../utilities/Pagination";
 
